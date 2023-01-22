@@ -59,7 +59,7 @@ main input {
     display: inline-block;
     left: 20px;
     top: 1px;
-    color: white;
+    color: rgb(23, 240, 255);
     border: 2px solid rgb(255, 255, 255);
     padding: 4px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
