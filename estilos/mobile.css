@@ -10,10 +10,10 @@ body, html {
 
 main {
     position: absolute;
-    left: calc(50% - 350px/2);
+    left: calc(50% - 280px/2);
     top: calc(50% - 500px/2);
-    min-width: 350px;
-    max-width: 400px;
+    min-width: 280px;
+    max-width: 320px;
     height: 480px;
     background-color: rgb(90, 21, 90);
     border-radius: 12px;
@@ -56,7 +56,7 @@ main input {
 
 #iconUser {
     position: absolute;
-    left: 50px;
+    left: 20px;
     top: 1px;
     color: white;
     border: 2px solid rgb(255, 255, 255);
@@ -66,7 +66,7 @@ main input {
 
 #iconKey {
     position: absolute;
-    left: 50px;
+    left: 20px;
     top: 47px;
     color: white;
     border: 2px solid rgb(255, 255, 255);
@@ -76,7 +76,7 @@ main input {
 
 main>div.login>form>p {
     position: absolute;
-    left: 100px;
+    left: 60px;
     top: 100px;
     text-align: center;
     color: rgb(255, 255, 255);
