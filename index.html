@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div id="lateral">
+
+    </div>
+    <main>
+        <div id="icon">
+                
+        </div>
+        <div class="login">
+            <form action="script.js" method="post">
+                <label for="textID">
+                    <span id="iconUser" class="material-symbols-outlined">
+                        person
+                    </span>
+                </label>
+                <label for="passwordID">
+                    <span id="iconKey" class="material-symbols-outlined">
+                        key
+                    </span>
+                </label>
+                <input type="text" placeholder="Usuário" name="text" id="textID" required minlength="5" maxlength="15">
+                <input type="password" placeholder="Senha" name="password" id="passwordID" required minlength="6" maxlength="20">
+                <p>Não tem uma conta? <br> <strong> registre-se</strong></p>
+                <input type="submit" value="Entrar" id="button">
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
