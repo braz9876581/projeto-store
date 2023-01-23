@@ -19,19 +19,18 @@
         </div>
         <div class="login">
             <form action="script.js" method="post">
-                <label for="textID">
-                    <span id="iconUser" class="material-symbols-outlined">
-                        person
-                    </span>
-                </label>
-                <label for="passwordID">
-                    <span id="iconKey" class="material-symbols-outlined">
-                        key
-                    </span>
-                </label>
-                <input type="text" placeholder="Usuário" name="text" id="textID" required minlength="5" maxlength="15">
-                <input type="password" placeholder="Senha" name="password" id="passwordID" required minlength="6" maxlength="20">
-                <p>Não tem uma conta? <br> <strong> registre-se</strong></p>
+                <div class="campo">
+                    <label for="textID"> </label>
+                    <span id="iconUser" class="material-symbols-outlined">person</span>
+                    <input type="text" placeholder="Usuário" name="text" id="textID" required minlength="5" maxlength="15">
+                </div>
+
+                <div class="campo">
+                    <label for="passwordID"> </label>
+                    <span id="iconKey" class="material-symbols-outlined">key</span>
+                    <input type="password" placeholder="Senha" name="password" id="passwordID" required minlength="6" maxlength="20">
+                    <p>Não tem uma conta? <br> <strong> registre-se</strong></p>
+                </div>
                 <input type="submit" value="Entrar" id="button">
             </form>
         </div>
