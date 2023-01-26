@@ -75,8 +75,6 @@ main>section#secLogin {
     padding: 0px 15px;
 }
 
-
-
 @keyframes addSize {
     to {height: calc(100vh - 95px);}
 }

@@ -5,6 +5,10 @@
     --color1: #1d1e20;
 }
 
+body {
+    background-color: #1d1e20;
+}
+
 a {
     color: white;
     text-decoration: none;
