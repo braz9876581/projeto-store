@@ -1,40 +1,26 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Login</title>
-    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (orientation: landscape)">
+    <title>Home page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="media-query/query.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
-<body>
-    <div id="lateral">
-
-    </div>
+<body onresize="repos()">
+    <header>
+        <div>Logo</div>
+        <span onclick="clicker()" id="menu" class="material-symbols-outlined">menu</span>
+        <ul id="barra" class="close">
+            <li><a href="index.html" id="pageHome">Home</a></li>
+            <li><a href="pages/login.html" id="pageLogin">Login</a></li>
+        </ul>
+    </header>
     <main>
-        <div id="icon">
-                
-        </div>
-        <div class="login">
-            <form action="script.js" method="post">
-                <div class="campo">
-                    <label for="textID"> </label>
-                    <span id="iconUser" class="material-symbols-outlined">person</span>
-                    <input type="text" placeholder="Usuário" name="text" id="textID" required minlength="5" maxlength="15">
-                </div>
-
-                <div class="campo">
-                    <label for="passwordID"> </label>
-                    <span id="iconKey" class="material-symbols-outlined">key</span>
-                    <input type="password" placeholder="Senha" name="password" id="passwordID" required minlength="6" maxlength="20">
-                    <p>Não tem uma conta? <br> <strong> registre-se</strong></p>
-                </div>
-                <input type="submit" value="Entrar" id="button">
-            </form>
-        </div>
-
+        
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
